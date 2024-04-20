@@ -1,0 +1,15 @@
+{
+    "name": "my-app",
+    "version": "1.0.0",
+    "description": "A full-stack application with React.js frontend and Node.js backend",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.5.1"
+    }
+}
